@@ -4,14 +4,26 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>documenting my shhh</title>
 <style>
-:root{color-scheme:dark}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#000;color:#ccc}body{font-family:monospace}.portal{position:relative;min-height:100svh}.title{position:absolute;top:7%;left:40%;font-size:9px;font-weight:normal;color:#777;letter-spacing:.04em;white-space:nowrap}.door{position:absolute;color:#c9c9c9;text-decoration:none;font-size:10px;letter-spacing:.035em;line-height:2;padding:8px;transform:translate(-8px,-8px)}.door:hover,.door:focus-visible{color:white;text-decoration:underline;text-underline-offset:4px}.pypc{top:20%;left:11%}.coaching{top:30%;left:72%}.podlessons{top:43%;left:27%}.podcasts{top:55%;left:66%}.art{top:69%;left:13%}.music{top:78%;left:53%}.writing{top:91%;left:29%}@media(max-width:600px){.title{left:30%;top:8%}.pypc{left:12%;top:20%}.coaching{left:65%;top:31%}.podlessons{left:22%;top:43%}.podcasts{left:63%;top:55%}.art{left:12%;top:67%}.music{left:57%;top:78%}.writing{left:26%;top:90%}}
+:root{color-scheme:dark}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#000;color:#ccc}body{font-family:monospace}.portal{position:relative;min-height:100svh}.title{position:absolute;top:7%;left:40%;font-size:9px;font-weight:normal;color:#777;letter-spacing:.04em;white-space:nowrap}.door{position:absolute;color:#c9c9c9;text-decoration:none;font-size:10px;letter-spacing:.035em;line-height:2;padding:8px;transform:translate(-8px,-8px)}.door:hover,.door:focus-visible{color:white;text-decoration:underline;text-underline-offset:4px}.pypc{top:20%;left:11%}.coaching{top:30%;left:72%}.podlessons{top:43%;left:27%}.podcasts{top:55%;left:66%}.art{top:69%;left:13%}.music{top:78%;left:53%}.writing{top:91%;left:29%}
+.podcast-menu{position:absolute;top:55%;left:66%;font-size:10px;letter-spacing:.035em;transform:translate(-8px,-8px);z-index:3}
+.podcast-menu summary{display:block;list-style:none;padding:8px;line-height:2;color:#c9c9c9;cursor:pointer}
+.podcast-menu summary::-webkit-details-marker{display:none}
+.podcast-menu summary:hover,.podcast-menu summary:focus-visible{color:#fff;text-decoration:underline;text-underline-offset:4px}
+.podcast-options{display:none;position:absolute;top:100%;left:0;min-width:100px;padding:9px 8px 8px;background:#000}
+.podcast-menu:hover .podcast-options,.podcast-menu:focus-within .podcast-options,.podcast-menu[open] .podcast-options{display:flex;flex-direction:column;gap:15px}
+.podcast-options a{color:#aaa;text-decoration:none;white-space:nowrap;padding:3px 0}
+.podcast-options a:hover,.podcast-options a:focus-visible{color:#fff;text-decoration:underline;text-underline-offset:4px}@media(max-width:600px){.title{left:30%;top:8%}.pypc{left:12%;top:20%}.coaching{left:65%;top:31%}.podlessons{left:22%;top:43%}.podcast-menu{left:63%;top:55%}.art{left:12%;top:67%}.music{left:57%;top:78%}.writing{left:26%;top:90%}}
 </style></head><body>
 <main class="portal" aria-label="Seven independent worlds">
 <h1 class="title">documenting my shhh</h1>
 <a class="door pypc" href="#" aria-label="PYPC, coming soon">pypc</a>
 <a class="door coaching" href="#" aria-label="Coaching, coming soon">coaching</a>
-<a class="door podlessons" href="https://boleary1599-wq.github.io/Kimcast/podlesson.html" aria-label="Podlessons, coming soon">podlessons</a>
-<a class="door podcasts" href="#" aria-label="Podcasts, coming soon">podcasts</a>
+<a class="door podlessons" href="https://boleary1599-wq.github.io/Kimcast/podlesson.html" aria-label="Podlessons">podlessons</a>
+<details class="podcast-menu"><summary aria-label="Choose a podcast">podcasts</summary><nav class="podcast-options" aria-label="Podcast websites">
+<a href="https://boleary1599-wq.github.io/themaudecastextendeduniverse/">maudecast</a>
+<a href="https://boleary1599-wq.github.io/fallout-podcast/">fallout</a>
+<a href="https://reinventingeducationpodcast.podbean.com/">reed</a>
+</nav></details>
 <a class="door art" href="#" aria-label="Art, coming soon">art</a>
 <a class="door music" href="#" aria-label="Music, coming soon">music</a>
 <a class="door writing" href="#" aria-label="Writing, coming soon">writing</a>
